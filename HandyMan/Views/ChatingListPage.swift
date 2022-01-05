@@ -20,15 +20,19 @@ var body: some View {
                     .foregroundColor(.blue)
                 }
             }
-        }.listStyle(.plain)
+        }
+    .listStyle(.plain)
     }
 }
 
 
 struct ChatingListPage_Previews: PreviewProvider {
     static var previews: some View {
-       
+    
             ChatingListPage()
+
+            
+           
         
        
     }

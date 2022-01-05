@@ -15,6 +15,15 @@ struct ContentView: View {
                 ZStack(alignment: .bottomLeading) {
                     tabView
                         .navigationBarTitle(navigationTitle, displayMode: .inline)
+                        .navigationBarItems(trailing: Group{
+                            if(currTab == 0) {
+                                NavigationLink(destination: Text("123")) {
+                                    Text("登入")
+                                }
+                                
+                            }
+                        })
+                       
                 }
             }
         }
@@ -31,6 +40,7 @@ struct ContentView: View {
                     Text("首页")
                         .font(.system(size: 10))
                 }.tag(0)
+               
             OrderPage()
                 .tabItem {
                     if(currTab == 1) {

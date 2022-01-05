@@ -10,7 +10,6 @@ import SwiftUI
 struct MessagePage: View {
    
     @State var message: String = ""
-    @ObservedObject private var kGurdian = KeyboardGuardian(textFieldCount: 1)
     @State private var name = Array<String>.init(repeating:"", count: 1)
     var body: some View {
         VStack {
@@ -31,8 +30,7 @@ struct MessagePage: View {
                     HStack(spacing: 15) {
                         HStack(spacing: 15) {
                             
-                            TextField("Message", text: $name[0], onEditingChanged: { if $0 {self.kGurdian.showField = 1}})
-                                .background(GeometryGetter(rect: $kGurdian.rects[0]))
+                            TextField("Message", text: $message)
                             
                             
                             Button(action: {
@@ -62,6 +60,7 @@ struct MessagePage: View {
                         })
                     }
                     .padding(.horizontal)
+                    .modifier(Keyboard())
                 }
                 .padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom)
             }

@@ -19,6 +19,7 @@ let fixImageText: [FixViewModel] = [
 struct FixViewModel: Codable, Hashable {
     var title: String
     var serviceImage: String
+   
     
 }
 

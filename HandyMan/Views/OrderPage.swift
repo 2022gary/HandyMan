@@ -10,9 +10,6 @@ import SwiftUI
 struct OrderPage: View {
     var body: some View {
         VStack {
-            Text("待服务订单")
-                .fontWeight(.bold)
-                .font(.largeTitle)
             List(0 ..< 3) { item in
                 HStack(alignment: .center) {
                     VStack(alignment: .leading) {

@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct FixView: View {
-    
+   
     var body: some View {
         LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing:10), count: 3), spacing: 20) {
         
             ForEach(fixImageText, id: \.self) {model in
+                
                 VStack {
                     Image(model.serviceImage)
                         .resizable()
