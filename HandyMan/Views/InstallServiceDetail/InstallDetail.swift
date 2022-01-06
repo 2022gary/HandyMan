@@ -11,7 +11,7 @@ struct InstallDetail: View {
     let detail: String
     var body: some View {
         if(detail == "lightingInstall") {
-            LightingInstallView()
+            LightInstallView()
         } else if(detail == "doorLockInstall") {
             DoorLockInstallView()
         } else if(detail == "wallInstall") {
