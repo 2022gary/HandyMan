@@ -12,15 +12,17 @@ struct InstallationView: View {
         LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing:10), count: 3), spacing: 20) {
         
             ForEach(installationImageText, id: \.self) {model in
-                VStack {
-                    Image(model.serviceImage)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 50, height: 50)
-                    Text(model.title)
-                        .lineLimit(1)
-                        .fixedSize()
-                        .font(.system(size: 14, weight: .semibold))
+                NavigationLink(destination: InstallDetail(detail: model.destination)) {
+                    VStack {
+                        Image(model.serviceImage)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 50, height: 50)
+                        Text(model.title)
+                            .lineLimit(1)
+                            .fixedSize()
+                            .font(.system(size: 14, weight: .semibold))
+                    }
                 }
             }
         }

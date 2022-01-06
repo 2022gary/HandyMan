@@ -23,7 +23,27 @@
 		4E47A6342780D090005BFA05 /* RefreshNewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6332780D090005BFA05 /* RefreshNewViewModel.swift */; };
 		4E47A660278287DB005BFA05 /* ChatingListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A65F278287DB005BFA05 /* ChatingListPage.swift */; };
 		4E47A6832785510A005BFA05 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6822785510A005BFA05 /* Keyboard.swift */; };
-		4E47A686278565A8005BFA05 /* WallFixDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A685278565A8005BFA05 /* WallFixDetail.swift */; };
+		4E47A686278565A8005BFA05 /* FixDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A685278565A8005BFA05 /* FixDetail.swift */; };
+		4E47A68A278692FE005BFA05 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A689278692FE005BFA05 /* OtherView.swift */; };
+		4E47A68C278695CF005BFA05 /* TubeFixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A68B278695CF005BFA05 /* TubeFixView.swift */; };
+		4E47A68E27869B92005BFA05 /* GroundFixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A68D27869B92005BFA05 /* GroundFixView.swift */; };
+		4E47A69227869BD2005BFA05 /* LeakingFixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A69127869BD2005BFA05 /* LeakingFixView.swift */; };
+		4E47A69427869BF2005BFA05 /* OtherFixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A69327869BF2005BFA05 /* OtherFixView.swift */; };
+		4E47A6972786A13F005BFA05 /* InstallDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6962786A13F005BFA05 /* InstallDetail.swift */; };
+		4E47A69F2786A283005BFA05 /* FloorInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A69E2786A283005BFA05 /* FloorInstallView.swift */; };
+		4E47A6A12786A2AE005BFA05 /* FurnitureInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6A02786A2AE005BFA05 /* FurnitureInstallView.swift */; };
+		4E47A6A32786A2C8005BFA05 /* OtherInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6A22786A2C8005BFA05 /* OtherInstallView.swift */; };
+		4E47A6A72786A548005BFA05 /* WallFreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6A62786A548005BFA05 /* WallFreshView.swift */; };
+		4E47A6A92786A569005BFA05 /* CeilingFreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6A82786A569005BFA05 /* CeilingFreshView.swift */; };
+		4E47A6AB2786A581005BFA05 /* GroundFreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6AA2786A581005BFA05 /* GroundFreshView.swift */; };
+		4E47A6AD2786A59A005BFA05 /* DoorFreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6AC2786A59A005BFA05 /* DoorFreshView.swift */; };
+		4E47A6AF2786A5B2005BFA05 /* OtherFreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6AE2786A5B2005BFA05 /* OtherFreshView.swift */; };
+		4E47A6B12786A5E3005BFA05 /* FreshDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6B02786A5E3005BFA05 /* FreshDetail.swift */; };
+		4E47A6B32786B389005BFA05 /* WallFixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6B22786B389005BFA05 /* WallFixView.swift */; };
+		4E47A6B52786B3B9005BFA05 /* DoorWindowFixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6B42786B3B9005BFA05 /* DoorWindowFixView.swift */; };
+		4E47A6B92786B496005BFA05 /* DoorLockInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6B82786B496005BFA05 /* DoorLockInstallView.swift */; };
+		4E47A6BB2786B4B3005BFA05 /* WallInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6BA2786B4B3005BFA05 /* WallInstallView.swift */; };
+		4E47A6BD2786B53D005BFA05 /* LightInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6BC2786B53D005BFA05 /* LightInstallView.swift */; };
 		4E9D930C276BC4E3001FFD3C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D930B276BC4E3001FFD3C /* HomePage.swift */; };
 		4E9D930E276BDA69001FFD3C /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D930D276BDA69001FFD3C /* CustomTabbarView.swift */; };
 		4E9D9310276C0395001FFD3C /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D930F276C0395001FFD3C /* OrderPage.swift */; };
@@ -50,7 +70,27 @@
 		4E47A6332780D090005BFA05 /* RefreshNewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshNewViewModel.swift; sourceTree = "<group>"; };
 		4E47A65F278287DB005BFA05 /* ChatingListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatingListPage.swift; sourceTree = "<group>"; };
 		4E47A6822785510A005BFA05 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
-		4E47A685278565A8005BFA05 /* WallFixDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFixDetail.swift; sourceTree = "<group>"; };
+		4E47A685278565A8005BFA05 /* FixDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixDetail.swift; sourceTree = "<group>"; };
+		4E47A689278692FE005BFA05 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		4E47A68B278695CF005BFA05 /* TubeFixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeFixView.swift; sourceTree = "<group>"; };
+		4E47A68D27869B92005BFA05 /* GroundFixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundFixView.swift; sourceTree = "<group>"; };
+		4E47A69127869BD2005BFA05 /* LeakingFixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakingFixView.swift; sourceTree = "<group>"; };
+		4E47A69327869BF2005BFA05 /* OtherFixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFixView.swift; sourceTree = "<group>"; };
+		4E47A6962786A13F005BFA05 /* InstallDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallDetail.swift; sourceTree = "<group>"; };
+		4E47A69E2786A283005BFA05 /* FloorInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorInstallView.swift; sourceTree = "<group>"; };
+		4E47A6A02786A2AE005BFA05 /* FurnitureInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureInstallView.swift; sourceTree = "<group>"; };
+		4E47A6A22786A2C8005BFA05 /* OtherInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherInstallView.swift; sourceTree = "<group>"; };
+		4E47A6A62786A548005BFA05 /* WallFreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFreshView.swift; sourceTree = "<group>"; };
+		4E47A6A82786A569005BFA05 /* CeilingFreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeilingFreshView.swift; sourceTree = "<group>"; };
+		4E47A6AA2786A581005BFA05 /* GroundFreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundFreshView.swift; sourceTree = "<group>"; };
+		4E47A6AC2786A59A005BFA05 /* DoorFreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorFreshView.swift; sourceTree = "<group>"; };
+		4E47A6AE2786A5B2005BFA05 /* OtherFreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFreshView.swift; sourceTree = "<group>"; };
+		4E47A6B02786A5E3005BFA05 /* FreshDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshDetail.swift; sourceTree = "<group>"; };
+		4E47A6B22786B389005BFA05 /* WallFixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFixView.swift; sourceTree = "<group>"; };
+		4E47A6B42786B3B9005BFA05 /* DoorWindowFixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorWindowFixView.swift; sourceTree = "<group>"; };
+		4E47A6B82786B496005BFA05 /* DoorLockInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorLockInstallView.swift; sourceTree = "<group>"; };
+		4E47A6BA2786B4B3005BFA05 /* WallInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallInstallView.swift; sourceTree = "<group>"; };
+		4E47A6BC2786B53D005BFA05 /* LightInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightInstallView.swift; sourceTree = "<group>"; };
 		4E9D930B276BC4E3001FFD3C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		4E9D930D276BDA69001FFD3C /* CustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
 		4E9D930F276C0395001FFD3C /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
@@ -122,6 +162,8 @@
 		4E19CCF7276AF20F006FF568 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4E47A6A42786A441005BFA05 /* RefreshServiceDetail */,
+				4E47A6952786A0D0005BFA05 /* InstallServiceDetail */,
 				4E47A68427856564005BFA05 /* FixServiceDetail */,
 				4E180B9C2770319C0056E04D /* ViewModel */,
 				4E9D930B276BC4E3001FFD3C /* HomePage.swift */,
@@ -151,9 +193,43 @@
 		4E47A68427856564005BFA05 /* FixServiceDetail */ = {
 			isa = PBXGroup;
 			children = (
-				4E47A685278565A8005BFA05 /* WallFixDetail.swift */,
+				4E47A685278565A8005BFA05 /* FixDetail.swift */,
+				4E47A689278692FE005BFA05 /* OtherView.swift */,
+				4E47A68B278695CF005BFA05 /* TubeFixView.swift */,
+				4E47A68D27869B92005BFA05 /* GroundFixView.swift */,
+				4E47A69127869BD2005BFA05 /* LeakingFixView.swift */,
+				4E47A69327869BF2005BFA05 /* OtherFixView.swift */,
+				4E47A6B22786B389005BFA05 /* WallFixView.swift */,
+				4E47A6B42786B3B9005BFA05 /* DoorWindowFixView.swift */,
 			);
 			path = FixServiceDetail;
+			sourceTree = "<group>";
+		};
+		4E47A6952786A0D0005BFA05 /* InstallServiceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4E47A6962786A13F005BFA05 /* InstallDetail.swift */,
+				4E47A69E2786A283005BFA05 /* FloorInstallView.swift */,
+				4E47A6A02786A2AE005BFA05 /* FurnitureInstallView.swift */,
+				4E47A6A22786A2C8005BFA05 /* OtherInstallView.swift */,
+				4E47A6B82786B496005BFA05 /* DoorLockInstallView.swift */,
+				4E47A6BA2786B4B3005BFA05 /* WallInstallView.swift */,
+				4E47A6BC2786B53D005BFA05 /* LightInstallView.swift */,
+			);
+			path = InstallServiceDetail;
+			sourceTree = "<group>";
+		};
+		4E47A6A42786A441005BFA05 /* RefreshServiceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4E47A6B02786A5E3005BFA05 /* FreshDetail.swift */,
+				4E47A6A62786A548005BFA05 /* WallFreshView.swift */,
+				4E47A6A82786A569005BFA05 /* CeilingFreshView.swift */,
+				4E47A6AA2786A581005BFA05 /* GroundFreshView.swift */,
+				4E47A6AC2786A59A005BFA05 /* DoorFreshView.swift */,
+				4E47A6AE2786A5B2005BFA05 /* OtherFreshView.swift */,
+			);
+			path = RefreshServiceDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,25 +303,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E47A6302780C7AC005BFA05 /* FixViewModel.swift in Sources */,
+				4E47A6A92786A569005BFA05 /* CeilingFreshView.swift in Sources */,
+				4E47A6972786A13F005BFA05 /* InstallDetail.swift in Sources */,
+				4E47A6AD2786A59A005BFA05 /* DoorFreshView.swift in Sources */,
 				4E47A6342780D090005BFA05 /* RefreshNewViewModel.swift in Sources */,
+				4E47A6B32786B389005BFA05 /* WallFixView.swift in Sources */,
 				4E47A6832785510A005BFA05 /* Keyboard.swift in Sources */,
+				4E47A6AB2786A581005BFA05 /* GroundFreshView.swift in Sources */,
+				4E47A6B92786B496005BFA05 /* DoorLockInstallView.swift in Sources */,
+				4E47A6A72786A548005BFA05 /* WallFreshView.swift in Sources */,
 				4E0B4CAD2772E13E00E15D88 /* FixView.swift in Sources */,
+				4E47A6B52786B3B9005BFA05 /* DoorWindowFixView.swift in Sources */,
 				4E9D9314276C03B7001FFD3C /* MinePage.swift in Sources */,
 				4E0B4CAF2772E14F00E15D88 /* InstallationView.swift in Sources */,
+				4E47A6BB2786B4B3005BFA05 /* WallInstallView.swift in Sources */,
 				4E180B9E277031E30056E04D /* HomeViewModel.swift in Sources */,
+				4E47A6BD2786B53D005BFA05 /* LightInstallView.swift in Sources */,
+				4E47A68A278692FE005BFA05 /* OtherView.swift in Sources */,
 				4E19CCE8276AEEED006FF568 /* ContentView.swift in Sources */,
 				4E180BA0277033D40056E04D /* HomeNavView.swift in Sources */,
+				4E47A68E27869B92005BFA05 /* GroundFixView.swift in Sources */,
 				4E47A6322780CF1D005BFA05 /* InstallationViewModel.swift in Sources */,
 				4E9D930C276BC4E3001FFD3C /* HomePage.swift in Sources */,
 				4E9D9312276C03AA001FFD3C /* MessagePage.swift in Sources */,
+				4E47A6AF2786A5B2005BFA05 /* OtherFreshView.swift in Sources */,
 				4E47A660278287DB005BFA05 /* ChatingListPage.swift in Sources */,
+				4E47A68C278695CF005BFA05 /* TubeFixView.swift in Sources */,
+				4E47A6A12786A2AE005BFA05 /* FurnitureInstallView.swift in Sources */,
 				4E19CCE6276AEEED006FF568 /* HandyManApp.swift in Sources */,
+				4E47A69227869BD2005BFA05 /* LeakingFixView.swift in Sources */,
 				4EF07A972776E01A00215268 /* AllService.swift in Sources */,
 				4E9D930E276BDA69001FFD3C /* CustomTabbarView.swift in Sources */,
 				4E0B4CB12772E17300E15D88 /* RefreshNew.swift in Sources */,
-				4E47A686278565A8005BFA05 /* WallFixDetail.swift in Sources */,
+				4E47A6A32786A2C8005BFA05 /* OtherInstallView.swift in Sources */,
+				4E47A686278565A8005BFA05 /* FixDetail.swift in Sources */,
+				4E47A69F2786A283005BFA05 /* FloorInstallView.swift in Sources */,
 				4E2DE46C276D9285005ADA8D /* LoginView.swift in Sources */,
+				4E47A69427869BF2005BFA05 /* OtherFixView.swift in Sources */,
 				4E47A62E277FAAAA005BFA05 /* MineContentViewModel.swift in Sources */,
+				4E47A6B12786A5E3005BFA05 /* FreshDetail.swift in Sources */,
 				4E9D9310276C0395001FFD3C /* OrderPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
