@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9B72D12787421000824697 /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B72D02787421000824697 /* LoginSignupView.swift */; };
 		4E0B4CAD2772E13E00E15D88 /* FixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4CAC2772E13E00E15D88 /* FixView.swift */; };
 		4E0B4CAF2772E14F00E15D88 /* InstallationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4CAE2772E14F00E15D88 /* InstallationView.swift */; };
 		4E0B4CB12772E17300E15D88 /* RefreshNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4CB02772E17300E15D88 /* RefreshNew.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A9B72D02787421000824697 /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginSignupView.swift; path = HandyMan/Views/LoginSignupView.swift; sourceTree = SOURCE_ROOT; };
 		4E0B4CAC2772E13E00E15D88 /* FixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixView.swift; sourceTree = "<group>"; };
 		4E0B4CAE2772E14F00E15D88 /* InstallationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationView.swift; sourceTree = "<group>"; };
 		4E0B4CB02772E17300E15D88 /* RefreshNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshNew.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				4E9D9311276C03AA001FFD3C /* MessagePage.swift */,
 				4E9D9313276C03B7001FFD3C /* MinePage.swift */,
 				4E2DE46B276D9285005ADA8D /* LoginView.swift */,
+				1A9B72D02787421000824697 /* LoginSignupView.swift */,
 				4E180B9F277033D40056E04D /* HomeNavView.swift */,
 				4E0B4CAC2772E13E00E15D88 /* FixView.swift */,
 				4E0B4CAE2772E14F00E15D88 /* InstallationView.swift */,
@@ -314,6 +317,7 @@
 				4E47A6A72786A548005BFA05 /* WallFreshView.swift in Sources */,
 				4E0B4CAD2772E13E00E15D88 /* FixView.swift in Sources */,
 				4E47A6B52786B3B9005BFA05 /* DoorWindowFixView.swift in Sources */,
+				1A9B72D12787421000824697 /* LoginSignupView.swift in Sources */,
 				4E9D9314276C03B7001FFD3C /* MinePage.swift in Sources */,
 				4E0B4CAF2772E14F00E15D88 /* InstallationView.swift in Sources */,
 				4E47A6BB2786B4B3005BFA05 /* WallInstallView.swift in Sources */,
