@@ -18,7 +18,7 @@ struct AllService: View {
                             Image(model.serviceImage)
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 80, height: 80)
+                                .frame(width: 70, height: 80)
                                 .clipShape(Circle())
                             Text(model.title)
                                 .lineLimit(1)
