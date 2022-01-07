@@ -17,7 +17,7 @@ struct ContentView: View {
                         .navigationBarTitle(navigationTitle, displayMode: .inline)
                         .navigationBarItems(trailing: Group{
                             if(currTab == 0) {
-                                NavigationLink(destination: Text("123")) {
+                                NavigationLink(destination: LoginSignupView()) {
                                     Text("登入")
                                 }
                                 
