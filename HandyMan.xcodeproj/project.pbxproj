@@ -45,6 +45,11 @@
 		4E47A6B92786B496005BFA05 /* DoorLockInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6B82786B496005BFA05 /* DoorLockInstallView.swift */; };
 		4E47A6BB2786B4B3005BFA05 /* WallInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6BA2786B4B3005BFA05 /* WallInstallView.swift */; };
 		4E47A6BD2786B53D005BFA05 /* LightInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6BC2786B53D005BFA05 /* LightInstallView.swift */; };
+		4E47A6C02787C17B005BFA05 /* MinePageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6BF2787C17B005BFA05 /* MinePageDetail.swift */; };
+		4E47A6C42787C239005BFA05 /* HistOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6C32787C239005BFA05 /* HistOrderView.swift */; };
+		4E47A6C62787C25F005BFA05 /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6C52787C25F005BFA05 /* MyInfoView.swift */; };
+		4E47A6C82787C278005BFA05 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6C72787C278005BFA05 /* RatingView.swift */; };
+		4E47A6CA2787FE0D005BFA05 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47A6C92787FE0D005BFA05 /* ContactView.swift */; };
 		4E9D930C276BC4E3001FFD3C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D930B276BC4E3001FFD3C /* HomePage.swift */; };
 		4E9D930E276BDA69001FFD3C /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D930D276BDA69001FFD3C /* CustomTabbarView.swift */; };
 		4E9D9310276C0395001FFD3C /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D930F276C0395001FFD3C /* OrderPage.swift */; };
@@ -93,6 +98,11 @@
 		4E47A6B82786B496005BFA05 /* DoorLockInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorLockInstallView.swift; sourceTree = "<group>"; };
 		4E47A6BA2786B4B3005BFA05 /* WallInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallInstallView.swift; sourceTree = "<group>"; };
 		4E47A6BC2786B53D005BFA05 /* LightInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightInstallView.swift; sourceTree = "<group>"; };
+		4E47A6BF2787C17B005BFA05 /* MinePageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinePageDetail.swift; sourceTree = "<group>"; };
+		4E47A6C32787C239005BFA05 /* HistOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistOrderView.swift; sourceTree = "<group>"; };
+		4E47A6C52787C25F005BFA05 /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
+		4E47A6C72787C278005BFA05 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		4E47A6C92787FE0D005BFA05 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		4E9D930B276BC4E3001FFD3C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		4E9D930D276BDA69001FFD3C /* CustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
 		4E9D930F276C0395001FFD3C /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
@@ -164,6 +174,7 @@
 		4E19CCF7276AF20F006FF568 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4E47A6BE2787C151005BFA05 /* MinePage */,
 				4E47A6A42786A441005BFA05 /* RefreshServiceDetail */,
 				4E47A6952786A0D0005BFA05 /* InstallServiceDetail */,
 				4E47A68427856564005BFA05 /* FixServiceDetail */,
@@ -233,6 +244,18 @@
 				4E47A6AE2786A5B2005BFA05 /* OtherFreshView.swift */,
 			);
 			path = RefreshServiceDetail;
+			sourceTree = "<group>";
+		};
+		4E47A6BE2787C151005BFA05 /* MinePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E47A6BF2787C17B005BFA05 /* MinePageDetail.swift */,
+				4E47A6C32787C239005BFA05 /* HistOrderView.swift */,
+				4E47A6C52787C25F005BFA05 /* MyInfoView.swift */,
+				4E47A6C72787C278005BFA05 /* RatingView.swift */,
+				4E47A6C92787FE0D005BFA05 /* ContactView.swift */,
+			);
+			path = MinePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +333,9 @@
 				4E47A6972786A13F005BFA05 /* InstallDetail.swift in Sources */,
 				4E47A6AD2786A59A005BFA05 /* DoorFreshView.swift in Sources */,
 				4E47A6342780D090005BFA05 /* RefreshNewViewModel.swift in Sources */,
+				4E47A6C42787C239005BFA05 /* HistOrderView.swift in Sources */,
 				4E47A6B32786B389005BFA05 /* WallFixView.swift in Sources */,
+				4E47A6C82787C278005BFA05 /* RatingView.swift in Sources */,
 				4E47A6832785510A005BFA05 /* Keyboard.swift in Sources */,
 				4E47A6AB2786A581005BFA05 /* GroundFreshView.swift in Sources */,
 				4E47A6B92786B496005BFA05 /* DoorLockInstallView.swift in Sources */,
@@ -319,12 +344,15 @@
 				4E47A6B52786B3B9005BFA05 /* DoorWindowFixView.swift in Sources */,
 				1A9B72D12787421000824697 /* LoginSignupView.swift in Sources */,
 				4E9D9314276C03B7001FFD3C /* MinePage.swift in Sources */,
+				4E47A6C02787C17B005BFA05 /* MinePageDetail.swift in Sources */,
 				4E0B4CAF2772E14F00E15D88 /* InstallationView.swift in Sources */,
 				4E47A6BB2786B4B3005BFA05 /* WallInstallView.swift in Sources */,
 				4E180B9E277031E30056E04D /* HomeViewModel.swift in Sources */,
 				4E47A6BD2786B53D005BFA05 /* LightInstallView.swift in Sources */,
 				4E47A68A278692FE005BFA05 /* OtherView.swift in Sources */,
 				4E19CCE8276AEEED006FF568 /* ContentView.swift in Sources */,
+				4E47A6CA2787FE0D005BFA05 /* ContactView.swift in Sources */,
+				4E47A6C62787C25F005BFA05 /* MyInfoView.swift in Sources */,
 				4E180BA0277033D40056E04D /* HomeNavView.swift in Sources */,
 				4E47A68E27869B92005BFA05 /* GroundFixView.swift in Sources */,
 				4E47A6322780CF1D005BFA05 /* InstallationViewModel.swift in Sources */,

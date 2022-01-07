@@ -20,13 +20,12 @@ struct MinePage: View {
             }
             Divider()
             List(mineContents) { mineContent in
-                HStack {
-                    Image(mineContent.imageName)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 30, height: 30)
-                    Text(mineContent.name)
-                        .font(.system(size: 25))
+                NavigationLink(destination: MinePageDetail(detail: mineContent.direction )) {
+                    HStack {
+                        Image(systemName: mineContent.imageName)
+                        Text(mineContent.name)
+                            
+                    }
                 }
                 
             }.listStyle(.plain)
