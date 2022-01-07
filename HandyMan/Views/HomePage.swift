@@ -18,13 +18,16 @@ struct HomePage: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     TabView(selection: $homeVM.currHomeNavTab) {
                         AllService()
+                            .padding(.top,20)
                             .tag(ServiceNavTab.all)
-                            .frame(maxWidth: .infinity)
                         FixView()
+                            .frame(maxWidth:.infinity)
                             .tag(ServiceNavTab.fix)
                         InstallationView()
+                            .frame(maxWidth:.infinity)
                             .tag(ServiceNavTab.installation)
                         RefreshNew()
+                            .frame(maxWidth:.infinity)
                             .tag(ServiceNavTab.refreshNew)
                     }
                     .frame(width: proxy.size.width, alignment: .top)
@@ -32,7 +35,7 @@ struct HomePage: View {
         
                    
                 }
-                .padding()
+            
             }
             .frame(maxHeight: .infinity, alignment: .top)
            
