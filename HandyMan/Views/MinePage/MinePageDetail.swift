@@ -9,15 +9,20 @@ import SwiftUI
 
 struct MinePageDetail: View {
     let detail: String
+    let name: String
     var body: some View {
         if(detail == "myInfo") {
             MyInfoView()
+                .navigationBarTitle(Text(name), displayMode: .inline)
         } else if(detail == "histOrder") {
             HistOrderView()
+                .navigationBarTitle(Text(name), displayMode: .inline)
         } else if(detail == "rating") {
             RatingView()
+                .navigationBarTitle(Text(name), displayMode: .inline)
         } else if(detail == "contact") {
             ContactView()
+                .navigationBarTitle(Text(name), displayMode: .inline)
         }
     }
 }

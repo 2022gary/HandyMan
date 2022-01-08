@@ -12,7 +12,7 @@ struct InstallationView: View {
         LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing:10), count: 3), spacing: 20) {
         
             ForEach(installationImageText, id: \.self) {model in
-                NavigationLink(destination: InstallDetail(detail: model.destination)) {
+                NavigationLink(destination: InstallDetail(detail: model.destination, name: model.title)) {
                     VStack {
                         Image(model.serviceImage)
                             .resizable()

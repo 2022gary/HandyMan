@@ -13,7 +13,7 @@ struct RefreshNew: View {
         
             ForEach(refreshImageText, id: \.self) {model in
                
-                    NavigationLink(destination: FreshDetail(detail: model.destination)) {
+                NavigationLink(destination: FreshDetail(detail: model.destination, name: model.title)) {
                         VStack {
                             Image(model.serviceImage)
                                 .resizable()

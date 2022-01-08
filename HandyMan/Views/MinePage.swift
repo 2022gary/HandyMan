@@ -20,7 +20,7 @@ struct MinePage: View {
             }
             Divider()
             List(mineContents) { mineContent in
-                NavigationLink(destination: MinePageDetail(detail: mineContent.direction )) {
+                NavigationLink(destination: MinePageDetail(detail: mineContent.direction, name: mineContent.name)) {
                     HStack {
                         Image(systemName: mineContent.imageName)
                         Text(mineContent.name)

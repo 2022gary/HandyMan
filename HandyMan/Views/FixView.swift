@@ -13,7 +13,7 @@ struct FixView: View {
         LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing:10), count: 3), spacing: 20) {
         
             ForEach(fixImageText, id: \.self) {model in
-                NavigationLink(destination: FixDetail(detail: model.destination)){
+                NavigationLink(destination: FixDetail(detail: model.destination, name: model.title)){
                     VStack {
                         Image(model.serviceImage)
                             .resizable()

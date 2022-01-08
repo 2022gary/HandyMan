@@ -13,7 +13,7 @@ struct AllService: View {
             LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing:10), count: 3), spacing: 20) {
             
                 ForEach(fixImageText, id: \.self) {model in
-                    NavigationLink(destination: FixDetail(detail: model.destination)){
+                    NavigationLink(destination: FixDetail(detail: model.destination, name: model.title)){
                         VStack {
                             Image(model.serviceImage)
                                 .resizable()
@@ -29,7 +29,7 @@ struct AllService: View {
                 }
                 
                 ForEach(installationImageText, id: \.self) {model in
-                    NavigationLink(destination: InstallDetail(detail: model.destination)) {
+                    NavigationLink(destination: InstallDetail(detail: model.destination, name: model.title)) {
                         VStack {
                             Image(model.serviceImage)
                                 .resizable()
@@ -45,7 +45,7 @@ struct AllService: View {
                 }
                 
                 ForEach(refreshImageText, id: \.self) {model in
-                    NavigationLink(destination: FreshDetail(detail: model.destination)) {
+                    NavigationLink(destination: FreshDetail(detail: model.destination, name: model.title)) {
                         VStack {
                             Image(model.serviceImage)
                                 .resizable()
