@@ -33,7 +33,7 @@ struct LoginPage: View {
                     .resizable()
                     .frame(width: 100, height: 100)
                     .padding(.bottom, 25)
-                    .foregroundColor(.white)
+                    .foregroundColor(.gray)
                 
                 HStack(spacing:0) {
                     Button(action: {
@@ -103,7 +103,7 @@ struct LoginPage: View {
                 Spacer()
             }
         }
-        .background(Color.yellow)
+        .background(Color.white)
         .edgesIgnoringSafeArea(.all)
     }
 }
