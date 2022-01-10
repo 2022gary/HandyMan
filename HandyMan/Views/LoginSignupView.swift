@@ -20,7 +20,7 @@ struct LoginSignupView_Previews: PreviewProvider {
 }
 
 struct LoginPage: View {
-    @State var index = 1
+    @State var index = 0
     @Namespace var name
     
     var body: some View{

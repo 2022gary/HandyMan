@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1A9B72D12787421000824697 /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B72D02787421000824697 /* LoginSignupView.swift */; };
+		1ABBBE16278CD9A9009EFD87 /* PaymentInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABBBE15278CD9A9009EFD87 /* PaymentInfoView.swift */; };
+		1ABBBE18278CDA0D009EFD87 /* ServiceTermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABBBE17278CDA0D009EFD87 /* ServiceTermsView.swift */; };
+		1ABBBE1A278CDA36009EFD87 /* PoliciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABBBE19278CDA36009EFD87 /* PoliciesView.swift */; };
 		4E0B4CAD2772E13E00E15D88 /* FixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4CAC2772E13E00E15D88 /* FixView.swift */; };
 		4E0B4CAF2772E14F00E15D88 /* InstallationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4CAE2772E14F00E15D88 /* InstallationView.swift */; };
 		4E0B4CB12772E17300E15D88 /* RefreshNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4CB02772E17300E15D88 /* RefreshNew.swift */; };
@@ -59,6 +62,9 @@
 
 /* Begin PBXFileReference section */
 		1A9B72D02787421000824697 /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginSignupView.swift; path = HandyMan/Views/LoginSignupView.swift; sourceTree = SOURCE_ROOT; };
+		1ABBBE15278CD9A9009EFD87 /* PaymentInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoView.swift; sourceTree = "<group>"; };
+		1ABBBE17278CDA0D009EFD87 /* ServiceTermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTermsView.swift; sourceTree = "<group>"; };
+		1ABBBE19278CDA36009EFD87 /* PoliciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliciesView.swift; sourceTree = "<group>"; };
 		4E0B4CAC2772E13E00E15D88 /* FixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixView.swift; sourceTree = "<group>"; };
 		4E0B4CAE2772E14F00E15D88 /* InstallationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationView.swift; sourceTree = "<group>"; };
 		4E0B4CB02772E17300E15D88 /* RefreshNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshNew.swift; sourceTree = "<group>"; };
@@ -251,6 +257,9 @@
 				4E47A6C52787C25F005BFA05 /* MyInfoView.swift */,
 				4E47A6C72787C278005BFA05 /* RatingView.swift */,
 				4E47A6C92787FE0D005BFA05 /* ContactView.swift */,
+				1ABBBE15278CD9A9009EFD87 /* PaymentInfoView.swift */,
+				1ABBBE17278CDA0D009EFD87 /* ServiceTermsView.swift */,
+				1ABBBE19278CDA36009EFD87 /* PoliciesView.swift */,
 			);
 			path = MinePage;
 			sourceTree = "<group>";
@@ -327,12 +336,14 @@
 			files = (
 				4E47A6302780C7AC005BFA05 /* FixViewModel.swift in Sources */,
 				4E47A6A92786A569005BFA05 /* CeilingFreshView.swift in Sources */,
+				1ABBBE1A278CDA36009EFD87 /* PoliciesView.swift in Sources */,
 				4E47A6972786A13F005BFA05 /* InstallDetail.swift in Sources */,
 				4E47A6AD2786A59A005BFA05 /* DoorFreshView.swift in Sources */,
 				4E47A6342780D090005BFA05 /* RefreshNewViewModel.swift in Sources */,
 				4E47A6C42787C239005BFA05 /* HistOrderView.swift in Sources */,
 				4E47A6B32786B389005BFA05 /* WallFixView.swift in Sources */,
 				4E47A6C82787C278005BFA05 /* RatingView.swift in Sources */,
+				1ABBBE18278CDA0D009EFD87 /* ServiceTermsView.swift in Sources */,
 				4E47A6832785510A005BFA05 /* Keyboard.swift in Sources */,
 				4E47A6AB2786A581005BFA05 /* GroundFreshView.swift in Sources */,
 				4E47A6B92786B496005BFA05 /* DoorLockInstallView.swift in Sources */,
@@ -366,6 +377,7 @@
 				4E0B4CB12772E17300E15D88 /* RefreshNew.swift in Sources */,
 				4E47A6A32786A2C8005BFA05 /* OtherInstallView.swift in Sources */,
 				4E47A686278565A8005BFA05 /* FixDetail.swift in Sources */,
+				1ABBBE16278CD9A9009EFD87 /* PaymentInfoView.swift in Sources */,
 				4E47A69F2786A283005BFA05 /* FloorInstallView.swift in Sources */,
 				4E47A69427869BF2005BFA05 /* OtherFixView.swift in Sources */,
 				4E47A62E277FAAAA005BFA05 /* MineContentViewModel.swift in Sources */,
