@@ -83,6 +83,7 @@ struct MyInfoView: View {
                         .padding(.horizontal, 120)
                         .background(Color.red)
                         .clipShape(Capsule())
+                        .shadow(radius: 10, y: 5)
                     
                 }
                 .padding()
