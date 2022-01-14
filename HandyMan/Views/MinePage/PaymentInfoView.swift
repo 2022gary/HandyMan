@@ -12,6 +12,8 @@ struct PaymentInfoView: View {
         VStack {
             
             HStack {
+                Text("再push一次")
+                
                 Text("Manage Payment")
                     .padding(.leading)
                 Spacer()
