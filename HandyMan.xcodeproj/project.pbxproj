@@ -57,6 +57,7 @@
 		4E9D9310276C0395001FFD3C /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D930F276C0395001FFD3C /* OrderPage.swift */; };
 		4E9D9312276C03AA001FFD3C /* MessagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D9311276C03AA001FFD3C /* MessagePage.swift */; };
 		4E9D9314276C03B7001FFD3C /* MinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D9313276C03B7001FFD3C /* MinePage.swift */; };
+		4EB30B8D2797B6BB00A755EC /* ProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B8C2797B6BB00A755EC /* ProgressModel.swift */; };
 		4EF07A972776E01A00215268 /* AllService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF07A962776E01A00215268 /* AllService.swift */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +113,7 @@
 		4E9D930F276C0395001FFD3C /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
 		4E9D9311276C03AA001FFD3C /* MessagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePage.swift; sourceTree = "<group>"; };
 		4E9D9313276C03B7001FFD3C /* MinePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinePage.swift; sourceTree = "<group>"; };
+		4EB30B8C2797B6BB00A755EC /* ProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressModel.swift; sourceTree = "<group>"; };
 		4EF07A962776E01A00215268 /* AllService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				4E47A6822785510A005BFA05 /* Keyboard.swift */,
+				4EB30B8C2797B6BB00A755EC /* ProgressModel.swift */,
 			);
 			path = FunctionClass;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				4E9D9312276C03AA001FFD3C /* MessagePage.swift in Sources */,
 				4E47A6AF2786A5B2005BFA05 /* OtherFreshView.swift in Sources */,
 				4E47A660278287DB005BFA05 /* ChatingListPage.swift in Sources */,
+				4EB30B8D2797B6BB00A755EC /* ProgressModel.swift in Sources */,
 				4E47A68C278695CF005BFA05 /* TubeFixView.swift in Sources */,
 				4E47A6A12786A2AE005BFA05 /* FurnitureInstallView.swift in Sources */,
 				4E19CCE6276AEEED006FF568 /* HandyManApp.swift in Sources */,
