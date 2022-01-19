@@ -58,6 +58,8 @@
 		4E9D9312276C03AA001FFD3C /* MessagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D9311276C03AA001FFD3C /* MessagePage.swift */; };
 		4E9D9314276C03B7001FFD3C /* MinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D9313276C03B7001FFD3C /* MinePage.swift */; };
 		4EB30B8D2797B6BB00A755EC /* ProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B8C2797B6BB00A755EC /* ProgressModel.swift */; };
+		4EB30B902797C30300A755EC /* WallFixQ1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B8F2797C30300A755EC /* WallFixQ1.swift */; };
+		4EB30B922797C31800A755EC /* WallFixQ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B912797C31800A755EC /* WallFixQ2.swift */; };
 		4EF07A972776E01A00215268 /* AllService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF07A962776E01A00215268 /* AllService.swift */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +116,8 @@
 		4E9D9311276C03AA001FFD3C /* MessagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePage.swift; sourceTree = "<group>"; };
 		4E9D9313276C03B7001FFD3C /* MinePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinePage.swift; sourceTree = "<group>"; };
 		4EB30B8C2797B6BB00A755EC /* ProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressModel.swift; sourceTree = "<group>"; };
+		4EB30B8F2797C30300A755EC /* WallFixQ1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFixQ1.swift; sourceTree = "<group>"; };
+		4EB30B912797C31800A755EC /* WallFixQ2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFixQ2.swift; sourceTree = "<group>"; };
 		4EF07A962776E01A00215268 /* AllService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,6 +217,7 @@
 		4E47A68427856564005BFA05 /* FixServiceDetail */ = {
 			isa = PBXGroup;
 			children = (
+				4EB30B8E2797C2D900A755EC /* WallFixQuestion */,
 				4E47A685278565A8005BFA05 /* FixDetail.swift */,
 				4E47A689278692FE005BFA05 /* OtherView.swift */,
 				4E47A68B278695CF005BFA05 /* TubeFixView.swift */,
@@ -265,6 +270,15 @@
 				1ABBBE19278CDA36009EFD87 /* PoliciesView.swift */,
 			);
 			path = MinePage;
+			sourceTree = "<group>";
+		};
+		4EB30B8E2797C2D900A755EC /* WallFixQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				4EB30B8F2797C30300A755EC /* WallFixQ1.swift */,
+				4EB30B912797C31800A755EC /* WallFixQ2.swift */,
+			);
+			path = WallFixQuestion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB30B922797C31800A755EC /* WallFixQ2.swift in Sources */,
 				4E47A6302780C7AC005BFA05 /* FixViewModel.swift in Sources */,
 				4E47A6A92786A569005BFA05 /* CeilingFreshView.swift in Sources */,
 				1ABBBE1A278CDA36009EFD87 /* PoliciesView.swift in Sources */,
@@ -376,6 +391,7 @@
 				4E47A6A12786A2AE005BFA05 /* FurnitureInstallView.swift in Sources */,
 				4E19CCE6276AEEED006FF568 /* HandyManApp.swift in Sources */,
 				4E47A69227869BD2005BFA05 /* LeakingFixView.swift in Sources */,
+				4EB30B902797C30300A755EC /* WallFixQ1.swift in Sources */,
 				4EF07A972776E01A00215268 /* AllService.swift in Sources */,
 				4E9D930E276BDA69001FFD3C /* CustomTabbarView.swift in Sources */,
 				4E0B4CB12772E17300E15D88 /* RefreshNew.swift in Sources */,
