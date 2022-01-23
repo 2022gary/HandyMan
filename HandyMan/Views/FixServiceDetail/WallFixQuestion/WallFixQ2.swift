@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct WallFixQ2: View {
+    @State var progressPercent:Double
+    @State var pages:Double
+    @State var title:String
+    @State var changePage: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            ProgressView("",value: progressPercent, total: 100)
+            Text(String(progressPercent))
+            LastNextPage(progressPercent: progressPercent, pages: pages, title:title)
+        }
+        
     }
 }
 
-struct WallFixQ2_Previews: PreviewProvider {
-    static var previews: some View {
-        WallFixQ2()
-    }
-}

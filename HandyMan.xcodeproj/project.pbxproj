@@ -60,6 +60,8 @@
 		4EB30B8D2797B6BB00A755EC /* ProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B8C2797B6BB00A755EC /* ProgressModel.swift */; };
 		4EB30B902797C30300A755EC /* WallFixQ1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B8F2797C30300A755EC /* WallFixQ1.swift */; };
 		4EB30B922797C31800A755EC /* WallFixQ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B912797C31800A755EC /* WallFixQ2.swift */; };
+		4EB30B94279C808A00A755EC /* WallFixDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B93279C808A00A755EC /* WallFixDestination.swift */; };
+		4EB30B96279CA34000A755EC /* LastNextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB30B95279CA34000A755EC /* LastNextPage.swift */; };
 		4EF07A972776E01A00215268 /* AllService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF07A962776E01A00215268 /* AllService.swift */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +120,8 @@
 		4EB30B8C2797B6BB00A755EC /* ProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressModel.swift; sourceTree = "<group>"; };
 		4EB30B8F2797C30300A755EC /* WallFixQ1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFixQ1.swift; sourceTree = "<group>"; };
 		4EB30B912797C31800A755EC /* WallFixQ2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFixQ2.swift; sourceTree = "<group>"; };
+		4EB30B93279C808A00A755EC /* WallFixDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallFixDestination.swift; sourceTree = "<group>"; };
+		4EB30B95279CA34000A755EC /* LastNextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastNextPage.swift; sourceTree = "<group>"; };
 		4EF07A962776E01A00215268 /* AllService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +205,7 @@
 				4E0B4CB02772E17300E15D88 /* RefreshNew.swift */,
 				4EF07A962776E01A00215268 /* AllService.swift */,
 				4E47A65F278287DB005BFA05 /* ChatingListPage.swift */,
+				4EB30B95279CA34000A755EC /* LastNextPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			children = (
 				4EB30B8F2797C30300A755EC /* WallFixQ1.swift */,
 				4EB30B912797C31800A755EC /* WallFixQ2.swift */,
+				4EB30B93279C808A00A755EC /* WallFixDestination.swift */,
 			);
 			path = WallFixQuestion;
 			sourceTree = "<group>";
@@ -356,6 +362,7 @@
 				4E47A6A92786A569005BFA05 /* CeilingFreshView.swift in Sources */,
 				1ABBBE1A278CDA36009EFD87 /* PoliciesView.swift in Sources */,
 				4E47A6972786A13F005BFA05 /* InstallDetail.swift in Sources */,
+				4EB30B94279C808A00A755EC /* WallFixDestination.swift in Sources */,
 				4E47A6AD2786A59A005BFA05 /* DoorFreshView.swift in Sources */,
 				4E47A6342780D090005BFA05 /* RefreshNewViewModel.swift in Sources */,
 				4E47A6C42787C239005BFA05 /* HistOrderView.swift in Sources */,
@@ -375,6 +382,7 @@
 				4E47A6BB2786B4B3005BFA05 /* WallInstallView.swift in Sources */,
 				4E180B9E277031E30056E04D /* HomeViewModel.swift in Sources */,
 				4E47A6BD2786B53D005BFA05 /* LightInstallView.swift in Sources */,
+				4EB30B96279CA34000A755EC /* LastNextPage.swift in Sources */,
 				4E47A68A278692FE005BFA05 /* OtherView.swift in Sources */,
 				4E19CCE8276AEEED006FF568 /* ContentView.swift in Sources */,
 				4E47A6CA2787FE0D005BFA05 /* ContactView.swift in Sources */,

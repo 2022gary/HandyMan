@@ -8,6 +8,19 @@
 import SwiftUI
 
 struct HomePage: View {
+    var body: some View {
+        mainPage()
+            .navigationBarBackButtonHidden(true)
+    }
+}
+
+struct HomePage_Previews: PreviewProvider {
+    static var previews: some View {
+        HomePage()
+    }
+}
+
+struct mainPage: View {
     @StateObject var homeVM: HomeViewModel = HomeViewModel()
     var body: some View {
         GeometryReader {proxy in
@@ -38,14 +51,7 @@ struct HomePage: View {
             
             }
             .frame(maxHeight: .infinity, alignment: .top)
-           
-        }
-    }
-}
-
-struct HomePage_Previews: PreviewProvider {
-    static var previews: some View {
-        HomePage()
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

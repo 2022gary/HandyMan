@@ -15,18 +15,19 @@ struct ContentView: View {
                 ZStack(alignment: .bottomLeading) {
                     tabView
                         .navigationBarTitle(navigationTitle, displayMode: .inline)
+                        .navigationBarBackButtonHidden(true)
                         .navigationBarItems(trailing: Group{
                             if(currTab == 0) {
                                 NavigationLink(destination: LoginSignupView()) {
                                     Text("登入")
                                 }
-                                
                             }
                         })
                 }
             }
-        }
+        }.navigationBarHidden(true)
     }
+    
     private var tabView: some View {
         TabView(selection: $currTab) {
             HomePage()
