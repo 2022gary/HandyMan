@@ -13,12 +13,61 @@ struct WallFixQ1: View {
     @State var title: String
     @State var changePage: Bool = false
     var body: some View {
-        ScrollView {
+        VStack {
             ProgressView("",value: progressPercent, total: 100)
-            Text(String(progressPercent))
+            Spacer()
+            
+            Text("1. 你想要油漆什么?")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .padding()
+                .multilineTextAlignment(.center)
+            
+//            List(choicesToWallFixQ1, id: \.self) { item in
+//                ChoiceCell(choice: item)
+//            }
+            ForEach(choicesToWallFixQ1, id: \.self) { item in
+                ChoiceCell(choice: item)
+            }
+            
+
+            Spacer()
+            Divider()
+                .padding(.bottom)
             LastNextPage(progressPercent: progressPercent, pages: pages, title:title)
         }
         
-      
     }
 }
+
+
+struct WallFixQ1_Preview: PreviewProvider {
+    
+    static var previews: some View{
+        WallFixQ1(progressPercent: 50.0, pages: 1.0, title: "hessss")
+    }
+}
+
+
+struct ChoiceCell: View {
+    var choice: String
+    
+    var body: some View {
+        HStack{
+            Text(choice.capitalized)
+            Spacer()
+            Image(systemName: "square")
+                .font(.title)
+        }
+        .foregroundColor(.secondary)
+        .padding()
+    }
+}
+
+
+private let choicesToWallFixQ1: [String] = [
+    "concrete wall",
+    "dry wall",
+    "wood floor",
+    "conrete floor"
+]

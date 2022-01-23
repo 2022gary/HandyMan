@@ -29,7 +29,7 @@ struct WallFixDestination: View {
                 })
                 
         } else if(progressPercent == pages*2) {
-            WallFixQ1(progressPercent:progressPercent, pages:pages, title:title)
+            WallFixQ2(progressPercent:progressPercent, pages:pages, title:title)
                 .navigationBarItems(trailing: Group{
                     NavigationLink(destination: ContentView()) {
                         Text("主页")

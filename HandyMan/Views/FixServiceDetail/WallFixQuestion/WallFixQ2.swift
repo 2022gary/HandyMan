@@ -13,9 +13,21 @@ struct WallFixQ2: View {
     @State var title:String
     @State var changePage: Bool = false
     var body: some View {
-        ScrollView {
+       VStack{
             ProgressView("",value: progressPercent, total: 100)
-            Text(String(progressPercent))
+//            Text("2nd q\(String(progressPercent))")
+            Spacer()
+            
+            Text("2. 你想要油漆什么鬼?")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .padding()
+                .multilineTextAlignment(.center)
+            
+            
+            Spacer()
+            Divider()
+                .padding(.bottom)
             LastNextPage(progressPercent: progressPercent, pages: pages, title:title)
         }
         

@@ -229,7 +229,6 @@
 				4E47A68D27869B92005BFA05 /* GroundFixView.swift */,
 				4E47A69127869BD2005BFA05 /* LeakingFixView.swift */,
 				4E47A69327869BF2005BFA05 /* OtherFixView.swift */,
-				4E47A6B22786B389005BFA05 /* WallFixView.swift */,
 				4E47A6B42786B3B9005BFA05 /* DoorWindowFixView.swift */,
 			);
 			path = FixServiceDetail;
@@ -280,6 +279,7 @@
 		4EB30B8E2797C2D900A755EC /* WallFixQuestion */ = {
 			isa = PBXGroup;
 			children = (
+				4E47A6B22786B389005BFA05 /* WallFixView.swift */,
 				4EB30B8F2797C30300A755EC /* WallFixQ1.swift */,
 				4EB30B912797C31800A755EC /* WallFixQ2.swift */,
 				4EB30B93279C808A00A755EC /* WallFixDestination.swift */,

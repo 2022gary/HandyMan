@@ -14,9 +14,22 @@ struct WallFixView: View {
     private var title:String = "墙面维修"
     private var pages:Double = 100/2
     var body: some View {
-        ScrollView {
+        
+        VStack {
             ProgressView ("", value: progressPercent , total: 100)
-            Text(String(progressPercent))
+            Spacer()
+            
+            Text("Please answer following questions, so we can serve you better!")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .padding()
+                
+                .multilineTextAlignment(.center)
+                
+//            Text(String(progressPercent))
+            Spacer()
+            Divider()
+                .padding(.bottom)
             LastNextPage(progressPercent: progressPercent, pages: pages, title:title)
         }
     }
