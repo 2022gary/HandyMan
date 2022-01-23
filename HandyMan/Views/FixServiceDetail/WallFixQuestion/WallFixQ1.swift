@@ -51,13 +51,24 @@ struct WallFixQ1_Preview: PreviewProvider {
 
 struct ChoiceCell: View {
     var choice: String
-    
+    @State var check:Bool = false;
     var body: some View {
         HStack{
             Text(choice.capitalized)
             Spacer()
-            Image(systemName: "square")
-                .font(.title)
+            if(check) {
+                Image(systemName: "checkmark.square.fill")
+                    .font(.title)
+                    .onTapGesture {
+                        check.toggle()
+                    }
+            } else {
+                Image(systemName: "square")
+                    .font(.title)
+                    .onTapGesture {
+                        check.toggle()
+                    }
+            }
         }
         .foregroundColor(.secondary)
         .padding()
